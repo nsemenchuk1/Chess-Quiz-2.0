@@ -1,0 +1,38 @@
+html {
+  background: white;
+}
+
+body {
+  background: lightgray;
+  margin: auto;
+  width: 450px;
+  padding: 0px 40px 0px 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  padding-top: 30px;
+}
+
+img {
+  width: 300px;
+}
+
+input {
+  border: 1px solid black;
+}
+
+button {
+  background: darkgray;
+  color: white;
+  width: 80px;
+  padding: 5px;
+}
+
+.markQuestion {
+  font-weight: bolder;
+}
+
+#phrase {
+  padding-bottom: 30px;
+}

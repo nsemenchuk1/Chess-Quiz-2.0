@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create-A-Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>Chess Quiz</h1>
+    <hr />
+    <h2>Question 1</h2>
+    <p>
+      <img
+        src="img/gettyimages-644132526-612x612.jpg"
+        alt="rook-knight-bishop.image"
+      />
+    </p>
+    <p>What chess piece can jump over other pieces when moving on the board?</p>
+    <p>
+      Answer: <input id="question1" type="text" />
+      <span class="markQuestion" id="markQuestion1"></span>
+    </p>
+    <hr />
+    <h2>Question 2</h2>
+    <p><img src="img/dark-chessboard.jpg" alt="dark-chessboard" /></p>
+    <p>How many chess pieces are there for each side?</p>
+    <p>
+      Answer: <input id="question2" type="text" />
+      <span class="markQuestion" id="markQuestion2"></span>
+    </p>
+    <hr />
+    <h2>Question 3</h2>
+    <p><img src="img/checkmate.png" alt="checkmate" /></p>
+    <p>What piece needs to be captured to for you to win?</p>
+    <p>
+      Answer: <input id="question3" type="text" />
+      <span class="markQuestion" id="markQuestion3"></span>
+    </p>
+    <hr />
+    <h2>Question 4</h2>
+    <p>
+      <img src="img/chess-square_0_0.jpg" alt="king-queen-pawn-knight.image" />
+    </p>
+    <p>What chess piece is there multiple of per color?</p>
+    <p>
+      Answer: <input id="question4" type="text" />
+      <span class="markQuestion" id="markQuestion4"></span>
+    </p>
+    <hr />
+    <p><button id="btn">Mark Quiz</button></p>
+    <p>Your Score: <span id="score"></span></p>
+    <p id="phrase"></p>
+  </body>
+</html>
